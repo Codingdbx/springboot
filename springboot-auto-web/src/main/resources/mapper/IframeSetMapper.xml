@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.springbootautoweb.dao.IframeSetMapper">
+  <resultMap id="BaseResultMap" type="com.example.springbootautoweb.entity.IframeSet">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="IFRAME_ID" jdbcType="VARCHAR" property="iframeId" />
+    <result column="LOCATION_TYPE" jdbcType="VARCHAR" property="locationType" />
+    <result column="LOCATION_VALUE" jdbcType="VARCHAR" property="locationValue" />
+  </resultMap>
+</mapper>

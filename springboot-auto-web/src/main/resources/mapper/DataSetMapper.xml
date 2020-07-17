@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.springbootautoweb.dao.DataSetMapper">
+  <resultMap id="BaseResultMap" type="com.example.springbootautoweb.entity.DataSet">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="DATA_ID" jdbcType="VARCHAR" property="dataId" />
+    <result column="SOURCE_ID" jdbcType="VARCHAR" property="sourceId" />
+    <result column="DATA_VALUE" jdbcType="VARCHAR" property="dataValue" />
+    <result column="EXCEL_SHEET_NUM" jdbcType="VARCHAR" property="excelSheetNum" />
+    <result column="EXCEL_SHEET_NAME" jdbcType="VARCHAR" property="excelSheetName" />
+    <result column="EXCEL_ROW" jdbcType="VARCHAR" property="excelRow" />
+    <result column="EXCEL_CELL" jdbcType="VARCHAR" property="excelCell" />
+    <result column="WORD_TABLE_NUM" jdbcType="VARCHAR" property="wordTableNum" />
+    <result column="WORD_TABLE_ROW" jdbcType="VARCHAR" property="wordTableRow" />
+    <result column="WORD_TABLE_CELL" jdbcType="VARCHAR" property="wordTableCell" />
+    <result column="WORD_PARAGRAPH_NUM" jdbcType="VARCHAR" property="wordParagraphNum" />
+    <result column="WORD_RUN_NUM" jdbcType="VARCHAR" property="wordRunNum" />
+    <result column="WORD_BOOK_MARK" jdbcType="VARCHAR" property="wordBookMark" />
+  </resultMap>
+</mapper>

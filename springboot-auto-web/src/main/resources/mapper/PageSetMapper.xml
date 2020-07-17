@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.springbootautoweb.dao.PageSetMapper">
+  <resultMap id="BaseResultMap" type="com.example.springbootautoweb.entity.PageSet">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="PAGE_ID" jdbcType="VARCHAR" property="pageId" />
+    <result column="PAGE_NAME" jdbcType="VARCHAR" property="pageName" />
+    <result column="PAGE_URL" jdbcType="VARCHAR" property="pageUrl" />
+    <result column="WAIT_TIME" jdbcType="VARCHAR" property="waitTime" />
+    <result column="SORT" jdbcType="VARCHAR" property="sort" />
+  </resultMap>
+</mapper>

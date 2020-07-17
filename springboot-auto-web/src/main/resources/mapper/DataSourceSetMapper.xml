@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.springbootautoweb.dao.DataSourceSetMapper">
+  <resultMap id="BaseResultMap" type="com.example.springbootautoweb.entity.DataSourceSet">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="SOURCE_ID" jdbcType="VARCHAR" property="sourceId" />
+    <result column="SOURCE_URL" jdbcType="VARCHAR" property="sourceUrl" />
+    <result column="SOURCE_TYPE" jdbcType="VARCHAR" property="sourceType" />
+  </resultMap>
+</mapper>
