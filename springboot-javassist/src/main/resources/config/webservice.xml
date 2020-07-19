@@ -1,0 +1,32 @@
+<service>
+    <!--类信息-->
+    <!--@WebService(name = "dynamicCreate2",targetNamespace = "webservice2.soap.cesgroup.com")-->
+    <port className="DynamicHelloWordWebservice" name="dynamicCreate" targetNamespace="webservice.soap.cesgroup.com">
+        <!--方法信息-->
+        <message methodName="toSay">
+            <!--请求参数-->
+            <element minOccurs="0" name="username" type="java.lang.String"/>
+            <element minOccurs="0" name="password" type="java.lang.String"/>
+        </message>
+
+    </port>
+
+    <port className="DynamicHelloWordWebservice2" name="dynamicCreate2" targetNamespace="webservice3.soap.cesgroup.com">
+        <message methodName="doSay">
+            <element minOccurs="0" name="username2" type="java.lang.String"/>
+            <element minOccurs="0" name="password2" type="java.lang.String"/>
+        </message>
+        <!--<message methodName="doSay2">
+            <element minOccurs="0" name="str2" type="java.lang.String"/>
+        </message>-->
+        <message methodName="doSay3">
+            <element minOccurs="0" name="str3" type="java.lang.String"/>
+            <element minOccurs="0" name="str4" type="java.lang.String"/>
+            <element minOccurs="0" name="str5" type="java.lang.String"/>
+            <element minOccurs="0" name="str6" type="java.lang.String"/>
+            <element minOccurs="0" name="str7" type="java.lang.String"/>
+        </message>
+
+    </port>
+
+</service>
