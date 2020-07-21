@@ -1,0 +1,231 @@
+2020-04-09 09:44:11.680 [main] ERROR c.w.rparecruitment.controller.ExecutorController - connect timed out
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.weaver.rparecruitment.util.HttpRequest.post(HttpRequest.java:158)
+	at com.weaver.rparecruitment.util.HttpRequest.post(HttpRequest.java:172)
+	at com.weaver.rparecruitment.controller.ExecutorController.downLoadAndUpLoadResume(ExecutorController.java:360)
+	at com.weaver.rparecruitment.controller.ExecutorController.downLoadResumeForExMail(ExecutorController.java:255)
+	at com.weaver.rparecruitment.RpaRecruitmentApplication$ApplicationRunImpl.run(RpaRecruitmentApplication.java:33)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:765)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.weaver.rparecruitment.RpaRecruitmentApplication.main(RpaRecruitmentApplication.java:15)
+2020-04-09 09:46:49.856 [main] ERROR c.w.rparecruitment.controller.ExecutorController - Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:735)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:678)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at com.weaver.rparecruitment.util.HttpRequest.response(HttpRequest.java:178)
+	at com.weaver.rparecruitment.util.HttpRequest.post(HttpRequest.java:168)
+	at com.weaver.rparecruitment.util.HttpRequest.post(HttpRequest.java:172)
+	at com.weaver.rparecruitment.controller.ExecutorController.downLoadAndUpLoadResume(ExecutorController.java:360)
+	at com.weaver.rparecruitment.controller.ExecutorController.downLoadResumeForExMail(ExecutorController.java:255)
+	at com.weaver.rparecruitment.RpaRecruitmentApplication$ApplicationRunImpl.run(RpaRecruitmentApplication.java:33)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:765)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.weaver.rparecruitment.RpaRecruitmentApplication.main(RpaRecruitmentApplication.java:15)
+2020-04-09 10:19:15.060 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute ApplicationRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:778)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:765)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.weaver.rparecruitment.RpaRecruitmentApplication.main(RpaRecruitmentApplication.java:15)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=80.0.3987.162)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IKISCO3', ip: '192.168.40.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x007DA113+1548563]
+	Ordinal0 [0x0075DDA1+1039777]
+	Ordinal0 [0x006DE32E+516910]
+	Ordinal0 [0x006D8012+491538]
+	Ordinal0 [0x006D86EB+493291]
+	Ordinal0 [0x006D9855+497749]
+	Ordinal0 [0x006D5885+481413]
+	Ordinal0 [0x006DF0D0+520400]
+	Ordinal0 [0x0068C030+180272]
+	Ordinal0 [0x0068B59D+177565]
+	Ordinal0 [0x006895FB+169467]
+	Ordinal0 [0x0067160A+71178]
+	Ordinal0 [0x00672690+75408]
+	Ordinal0 [0x00672629+75305]
+	Ordinal0 [0x007771B7+1143223]
+	GetHandleVerifier [0x00872B46+507814]
+	GetHandleVerifier [0x00872864+507076]
+	GetHandleVerifier [0x00879F47+537511]
+	GetHandleVerifier [0x00873402+510050]
+	Ordinal0 [0x0076F29C+1110684]
+	Ordinal0 [0x0077938B+1151883]
+	Ordinal0 [0x007794F3+1152243]
+	Ordinal0 [0x007783F5+1147893]
+	BaseThreadInitThunk [0x75856359+25]
+	RtlGetAppContainerNamedObjectPath [0x76F17B74+228]
+	RtlGetAppContainerNamedObjectPath [0x76F17B44+180]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.weaver.rparecruitment.controller.ExecutorController.getWebDriver(ExecutorController.java:328)
+	at com.weaver.rparecruitment.controller.ExecutorController.downLoadResumeForExMail(ExecutorController.java:53)
+	at com.weaver.rparecruitment.RpaRecruitmentApplication$ApplicationRunImpl.run(RpaRecruitmentApplication.java:33)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:775)
+	... 5 common frames omitted
+2020-04-09 10:28:39.285 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute ApplicationRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:778)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:765)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.weaver.rparecruitment.RpaRecruitmentApplication.main(RpaRecruitmentApplication.java:15)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=80.0.3987.162)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IKISCO3', ip: '192.168.40.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x007DA113+1548563]
+	Ordinal0 [0x0075DDA1+1039777]
+	Ordinal0 [0x006DE32E+516910]
+	Ordinal0 [0x006D8012+491538]
+	Ordinal0 [0x006D86EB+493291]
+	Ordinal0 [0x006D9855+497749]
+	Ordinal0 [0x006D5885+481413]
+	Ordinal0 [0x006DF0D0+520400]
+	Ordinal0 [0x0068C030+180272]
+	Ordinal0 [0x0068B59D+177565]
+	Ordinal0 [0x006895FB+169467]
+	Ordinal0 [0x0067160A+71178]
+	Ordinal0 [0x00672690+75408]
+	Ordinal0 [0x00672629+75305]
+	Ordinal0 [0x007771B7+1143223]
+	GetHandleVerifier [0x00872B46+507814]
+	GetHandleVerifier [0x00872864+507076]
+	GetHandleVerifier [0x00879F47+537511]
+	GetHandleVerifier [0x00873402+510050]
+	Ordinal0 [0x0076F29C+1110684]
+	Ordinal0 [0x0077938B+1151883]
+	Ordinal0 [0x007794F3+1152243]
+	Ordinal0 [0x007783F5+1147893]
+	BaseThreadInitThunk [0x75856359+25]
+	RtlGetAppContainerNamedObjectPath [0x76F17B74+228]
+	RtlGetAppContainerNamedObjectPath [0x76F17B44+180]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.weaver.rparecruitment.controller.ExecutorController.getWebDriver(ExecutorController.java:328)
+	at com.weaver.rparecruitment.controller.ExecutorController.downLoadResumeForExMail(ExecutorController.java:53)
+	at com.weaver.rparecruitment.RpaRecruitmentApplication$ApplicationRunImpl.run(RpaRecruitmentApplication.java:33)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:775)
+	... 5 common frames omitted
+2020-04-09 15:06:47.343 [main] ERROR c.w.rparecruitment.controller.ExecutorController - 发生系统异常!
+2020-04-09 15:07:03.249 [main] ERROR c.w.rparecruitment.controller.ExecutorController - 发生系统异常!
+2020-04-09 15:08:14.723 [main] ERROR c.w.rparecruitment.controller.ExecutorController - 发送简历到人才库失败
+
+
+2020-04-09 15:08:14.724 [main] ERROR c.w.rparecruitment.controller.ExecutorController - Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:735)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:678)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1587)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at com.weaver.rparecruitment.util.HttpRequest.response(HttpRequest.java:178)
+	at com.weaver.rparecruitment.util.HttpRequest.post(HttpRequest.java:168)
+	at com.weaver.rparecruitment.util.HttpRequest.post(HttpRequest.java:172)
+	at com.weaver.rparecruitment.controller.ExecutorController.downLoadResumeForExMail(ExecutorController.java:298)
+	at com.weaver.rparecruitment.RpaRecruitmentApplication$ApplicationRunImpl.run(RpaRecruitmentApplication.java:33)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:765)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.weaver.rparecruitment.RpaRecruitmentApplication.main(RpaRecruitmentApplication.java:15)

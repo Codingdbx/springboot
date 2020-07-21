@@ -1,0 +1,25 @@
+2020-04-16 09:20:38.487 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - Starting RpaRecruitmentApplication on DESKTOP-IKISCO3 with PID 16100 (D:\myproject\rpa-recruitment\target\classes started by Administrator in D:\myproject\rpa-recruitment)
+2020-04-16 09:20:38.492 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - No active profile set, falling back to default profiles: default
+2020-04-16 09:20:39.528 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8087 (http)
+2020-04-16 09:20:39.541 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2020-04-16 09:20:39.541 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-16 09:20:39.542 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-04-16 09:20:39.656 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-16 09:20:39.656 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1116 ms
+2020-04-16 09:20:39.808 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 09:20:39.944 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2020-04-16 09:20:39.967 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8087 (http) with context path ''
+2020-04-16 09:20:39.969 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - Started RpaRecruitmentApplication in 2.63 seconds (JVM running for 3.421)
+2020-04-16 09:20:45.848 [Forwarding newSession on session null to remote] INFO  org.openqa.selenium.remote.ProtocolHandshake - Detected dialect: W3C
+2020-04-16 09:20:47.496 [main] INFO  c.w.rparecruitment.controller.ExecutorController - 启用cookie登录...
+2020-04-16 09:20:56.810 [main] INFO  c.w.rparecruitment.controller.ExecutorController - 等待用户手动登录...
+2020-04-16 09:23:31.712 [main] INFO  c.w.rparecruitment.controller.ExecutorController - 用户登录成功!
+2020-04-16 09:23:33.604 [main] INFO  c.w.rparecruitment.controller.ExecutorController - 当前简历列表数量[2]
+
+
+2020-04-16 09:23:36.614 [main] INFO  c.w.rparecruitment.controller.ExecutorController - 获取简历信息开始...
+2020-04-16 09:23:36.635 [main] INFO  c.w.rparecruitment.controller.ExecutorController - 当前列表剩余数量[2],简历标题:(51job.com)申请贵公司合作伙伴发展经理（上海）－汪先生
+2020-04-16 09:23:37.600 [main] INFO  c.w.rparecruitment.controller.ExecutorController - 下载简历并上传到OA系统成功!
+2020-04-16 09:23:37.600 [main] INFO  c.w.rparecruitment.controller.ExecutorController - 读取简历成功，简历标题[(51job.com)申请贵公司合作伙伴发展经理（上海）－汪先生]投递时间[2020-04-15]
+2020-04-16 09:23:40.612 [main] INFO  c.w.rparecruitment.controller.ExecutorController - 获取简历信息开始...
+2020-04-16 09:23:41.822 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

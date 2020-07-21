@@ -1,0 +1,213 @@
+2020-04-07 11:39:53.765 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - Starting RpaRecruitmentApplication on DESKTOP-IKISCO3 with PID 28492 (D:\myproject\rpa-recruitment\target\classes started by Administrator in D:\myproject\rpa-recruitment)
+2020-04-07 11:39:53.780 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - No active profile set, falling back to default profiles: default
+2020-04-07 11:39:55.540 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8087 (http)
+2020-04-07 11:39:55.562 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2020-04-07 11:39:55.564 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-07 11:39:55.564 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-04-07 11:39:55.682 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-07 11:39:55.683 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1754 ms
+2020-04-07 11:39:55.978 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-07 11:39:56.273 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2020-04-07 11:39:56.308 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8087 (http) with context path ''
+2020-04-07 11:39:56.312 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - Started RpaRecruitmentApplication in 3.828 seconds (JVM running for 5.542)
+2020-04-07 11:40:07.532 [http-nio-8087-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-07 11:40:07.532 [http-nio-8087-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-07 11:40:07.536 [http-nio-8087-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-04-07 11:40:13.860 [Forwarding newSession on session null to remote] INFO  org.openqa.selenium.remote.ProtocolHandshake - Detected dialect: W3C
+2020-04-07 11:40:21.219 [http-nio-8087-exec-2] INFO  c.w.rparecruitment.controller.ExecuteController - 启用cookie登录=============================
+2020-04-07 11:40:38.566 [http-nio-8087-exec-2] INFO  c.w.rparecruitment.controller.ExecuteController - 使用cookie登录失败==================================
+2020-04-07 11:40:42.462 [http-nio-8087-exec-2] INFO  c.w.rparecruitment.controller.ExecuteController - cookie已经失效==================================
+2020-04-07 11:40:54.835 [http-nio-8087-exec-2] INFO  c.w.rparecruitment.controller.ExecuteController - 等待用户登录=================================
+2020-04-07 11:44:07.258 [http-nio-8087-exec-2] INFO  c.w.rparecruitment.controller.ExecuteController - 用户登录失败==================================
+2020-04-07 11:44:07.418 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-07 11:44:10.789 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - Starting RpaRecruitmentApplication on DESKTOP-IKISCO3 with PID 13568 (D:\myproject\rpa-recruitment\target\classes started by Administrator in D:\myproject\rpa-recruitment)
+2020-04-07 11:44:10.792 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - No active profile set, falling back to default profiles: default
+2020-04-07 11:44:11.487 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8087 (http)
+2020-04-07 11:44:11.494 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2020-04-07 11:44:11.495 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-07 11:44:11.495 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-04-07 11:44:11.558 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-07 11:44:11.558 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 722 ms
+2020-04-07 11:44:11.676 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-07 11:44:11.776 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2020-04-07 11:44:11.793 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8087 (http) with context path ''
+2020-04-07 11:44:11.797 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - Started RpaRecruitmentApplication in 1.464 seconds (JVM running for 2.071)
+2020-04-07 11:44:11.834 [http-nio-8087-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-07 11:44:11.834 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-07 11:44:11.838 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-04-07 11:44:33.094 [Forwarding newSession on session null to remote] INFO  org.openqa.selenium.remote.ProtocolHandshake - Detected dialect: W3C
+2020-04-07 11:44:38.453 [http-nio-8087-exec-3] INFO  c.w.rparecruitment.controller.ExecuteController - 启用cookie登录
+2020-04-07 11:44:51.328 [http-nio-8087-exec-3] INFO  c.w.rparecruitment.controller.ExecuteController - cookie登录失败
+2020-04-07 11:44:51.328 [http-nio-8087-exec-3] INFO  c.w.rparecruitment.controller.ExecuteController - cookie已经失效
+2020-04-07 11:44:56.946 [http-nio-8087-exec-3] INFO  c.w.rparecruitment.controller.ExecuteController - 等待用户手动登录...
+2020-04-07 11:46:02.606 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-07 11:46:13.115 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - Starting RpaRecruitmentApplication on DESKTOP-IKISCO3 with PID 26804 (D:\myproject\rpa-recruitment\target\classes started by Administrator in D:\myproject\rpa-recruitment)
+2020-04-07 11:46:13.119 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - No active profile set, falling back to default profiles: default
+2020-04-07 11:46:13.853 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8087 (http)
+2020-04-07 11:46:13.862 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2020-04-07 11:46:13.862 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-07 11:46:13.862 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-04-07 11:46:13.938 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-07 11:46:13.938 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 781 ms
+2020-04-07 11:46:14.088 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-07 11:46:14.219 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2020-04-07 11:46:14.238 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8087 (http) with context path ''
+2020-04-07 11:46:14.240 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - Started RpaRecruitmentApplication in 1.572 seconds (JVM running for 2.137)
+2020-04-07 11:46:14.351 [http-nio-8087-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-07 11:46:14.351 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-07 11:46:14.355 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-04-07 11:46:19.809 [Forwarding newSession on session null to remote] INFO  org.openqa.selenium.remote.ProtocolHandshake - Detected dialect: W3C
+2020-04-07 11:46:23.355 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 启用cookie登录
+2020-04-07 11:46:35.801 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - cookie登录失败
+2020-04-07 11:46:35.802 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - cookie已经失效
+2020-04-07 11:46:47.290 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 等待用户手动登录...
+2020-04-07 11:46:58.992 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 用户登录成功
+2020-04-07 11:47:09.424 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-07 11:48:43.747 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - Starting RpaRecruitmentApplication on DESKTOP-IKISCO3 with PID 24372 (D:\myproject\rpa-recruitment\target\classes started by Administrator in D:\myproject\rpa-recruitment)
+2020-04-07 11:48:43.750 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - No active profile set, falling back to default profiles: default
+2020-04-07 11:48:44.474 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8087 (http)
+2020-04-07 11:48:44.481 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2020-04-07 11:48:44.481 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-07 11:48:44.481 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-04-07 11:48:44.543 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-07 11:48:44.543 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 722 ms
+2020-04-07 11:48:44.661 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-07 11:48:44.772 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2020-04-07 11:48:44.790 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8087 (http) with context path ''
+2020-04-07 11:48:44.793 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - Started RpaRecruitmentApplication in 1.56 seconds (JVM running for 2.16)
+2020-04-07 11:48:44.982 [http-nio-8087-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-07 11:48:44.983 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-07 11:48:44.986 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-04-07 11:48:50.690 [Forwarding newSession on session null to remote] INFO  org.openqa.selenium.remote.ProtocolHandshake - Detected dialect: W3C
+2020-04-07 11:48:54.143 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 启用cookie登录...
+2020-04-07 11:48:59.216 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - cookie登录成功!
+2020-04-07 11:50:12.347 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 获取简历信息开始=========================
+2020-04-07 11:50:12.371 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-07 16:40:27.913 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - Starting RpaRecruitmentApplication on DESKTOP-IKISCO3 with PID 28288 (D:\myproject\rpa-recruitment\target\classes started by Administrator in D:\myproject\rpa-recruitment)
+2020-04-07 16:40:27.916 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - No active profile set, falling back to default profiles: default
+2020-04-07 16:40:28.563 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8087 (http)
+2020-04-07 16:40:28.571 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2020-04-07 16:40:28.571 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-07 16:40:28.571 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-04-07 16:40:28.634 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-07 16:40:28.635 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 665 ms
+2020-04-07 16:40:28.761 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-07 16:40:28.877 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2020-04-07 16:40:28.895 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8087 (http) with context path ''
+2020-04-07 16:40:28.897 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - Started RpaRecruitmentApplication in 1.349 seconds (JVM running for 1.904)
+2020-04-07 16:40:33.145 [http-nio-8087-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-07 16:40:33.146 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-07 16:40:33.156 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-04-07 16:40:38.927 [Forwarding newSession on session null to remote] INFO  org.openqa.selenium.remote.ProtocolHandshake - Detected dialect: W3C
+2020-04-07 16:40:43.346 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 启用cookie登录...
+2020-04-07 16:40:48.830 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - cookie登录成功!
+2020-04-07 16:41:03.264 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 获取简历信息开始=========================
+2020-04-07 16:41:06.952 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 当前列表数量[2],简历标题=============================(51job.com)申请贵公司招聘专员（上海）－赵尧尧
+2020-04-07 16:41:22.983 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 下载简历并上传OA成功=======================
+2020-04-07 16:41:23.772 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 读取简历成功，简历标题[(51job.com)申请贵公司招聘专员（上海）－赵尧尧]投递时间[2020-04-07]
+2020-04-07 16:41:31.213 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 获取简历信息开始=========================
+2020-04-07 16:41:31.231 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 当前列表数量[1],简历标题=============================(51job.com)申请贵公司项目实施（宜春）（宜春）－吴锦鹏
+2020-04-07 16:41:34.058 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 下载简历并上传OA成功=======================
+2020-04-07 16:41:34.059 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 读取简历成功，简历标题[(51job.com)申请贵公司项目实施（宜春）（宜春）－吴锦鹏]投递时间[2020-04-07]
+2020-04-07 16:41:46.319 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 发送简历信息=========================[{"address":"上海","age":"24","deliveryTime":"2020-04-07","education":"硕士","email":"zhaoyaoyao0918@163.com","imageFileId":"3833587","name":"赵尧尧","phone":"18621821702","position":"HR实习生","sex":"女","source":"前程无忧","title":"(51job.com)申请贵公司招聘专员（上海）－赵尧尧"},{"address":"宜春","age":"27","deliveryTime":"2020-04-07","education":"大专","email":"601119594@qq.com","imageFileId":"3833588","name":"吴锦鹏","phone":"13576524657","position":"金蝶实施工程师","sex":"男","source":"前程无忧","title":"(51job.com)申请贵公司项目实施（宜春）（宜春）－吴锦鹏"}]
+2020-04-07 16:42:03.860 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 发送简历成功==========================
+
+
+2020-04-07 16:51:40.033 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-07 16:51:43.595 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - Starting RpaRecruitmentApplication on DESKTOP-IKISCO3 with PID 11396 (D:\myproject\rpa-recruitment\target\classes started by Administrator in D:\myproject\rpa-recruitment)
+2020-04-07 16:51:43.598 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - No active profile set, falling back to default profiles: default
+2020-04-07 16:51:44.203 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8087 (http)
+2020-04-07 16:51:44.209 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2020-04-07 16:51:44.210 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-07 16:51:44.210 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-04-07 16:51:44.284 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-07 16:51:44.284 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 619 ms
+2020-04-07 16:51:44.399 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-07 16:51:44.500 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2020-04-07 16:51:44.516 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8087 (http) with context path ''
+2020-04-07 16:51:44.519 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - Started RpaRecruitmentApplication in 1.416 seconds (JVM running for 2.007)
+2020-04-07 16:51:50.265 [http-nio-8087-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-07 16:51:50.265 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-07 16:51:50.270 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-04-07 16:51:55.911 [Forwarding newSession on session null to remote] INFO  org.openqa.selenium.remote.ProtocolHandshake - Detected dialect: W3C
+2020-04-07 16:51:59.891 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 启用cookie登录...
+2020-04-07 16:52:03.352 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - cookie登录成功!
+2020-04-07 16:52:12.214 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 获取简历信息开始=========================
+2020-04-07 16:52:12.238 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 当前列表数量[2],简历标题=============================(51job.com)申请贵公司招聘专员（上海）－赵尧尧
+2020-04-07 16:52:13.896 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 下载简历并上传OA成功=======================
+2020-04-07 16:52:13.896 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 读取简历成功，简历标题[(51job.com)申请贵公司招聘专员（上海）－赵尧尧]投递时间[2020-04-07]
+2020-04-07 16:52:18.380 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 获取简历信息开始=========================
+2020-04-07 16:52:18.401 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 当前列表数量[1],简历标题=============================(51job.com)申请贵公司项目实施（宜春）（宜春）－吴锦鹏
+2020-04-07 16:52:19.728 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 下载简历并上传OA成功=======================
+2020-04-07 16:52:19.729 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 读取简历成功，简历标题[(51job.com)申请贵公司项目实施（宜春）（宜春）－吴锦鹏]投递时间[2020-04-07]
+2020-04-07 16:52:31.079 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 发送简历信息=========================[{"address":"上海","age":"24","deliveryTime":"2020-04-07","education":"硕士","email":"zhaoyaoyao0918@163.com","imageFileId":"3833589","name":"赵尧尧","phone":"18621821702","position":"HR实习生","sex":"女","source":"前程无忧","title":"(51job.com)申请贵公司招聘专员（上海）－赵尧尧"},{"address":"宜春","age":"27","deliveryTime":"2020-04-07","education":"大专","email":"601119594@qq.com","imageFileId":"3833590","name":"吴锦鹏","phone":"13576524657","position":"金蝶实施工程师","sex":"男","source":"前程无忧","title":"(51job.com)申请贵公司项目实施（宜春）（宜春）－吴锦鹏"}]
+2020-04-07 17:05:10.506 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 发送简历成功==========================
+
+
+2020-04-07 17:05:10.563 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-07 17:05:26.892 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - Starting RpaRecruitmentApplication on DESKTOP-IKISCO3 with PID 16320 (D:\myproject\rpa-recruitment\target\classes started by Administrator in D:\myproject\rpa-recruitment)
+2020-04-07 17:05:26.895 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - No active profile set, falling back to default profiles: default
+2020-04-07 17:05:27.532 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8087 (http)
+2020-04-07 17:05:27.540 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2020-04-07 17:05:27.540 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-07 17:05:27.540 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-04-07 17:05:27.602 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-07 17:05:27.603 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 674 ms
+2020-04-07 17:05:27.719 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-07 17:05:27.824 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2020-04-07 17:05:27.841 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8087 (http) with context path ''
+2020-04-07 17:05:27.844 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - Started RpaRecruitmentApplication in 1.382 seconds (JVM running for 1.968)
+2020-04-07 17:05:30.555 [http-nio-8087-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-07 17:05:30.555 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-07 17:05:30.561 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-04-07 17:05:36.230 [Forwarding newSession on session null to remote] INFO  org.openqa.selenium.remote.ProtocolHandshake - Detected dialect: W3C
+2020-04-07 17:05:41.638 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 启用cookie登录...
+2020-04-07 17:05:43.765 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - cookie登录成功!
+2020-04-07 17:05:54.318 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 获取简历信息开始=========================
+2020-04-07 17:05:54.340 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 当前列表数量[2],简历标题=============================(51job.com)申请贵公司招聘专员（上海）－赵尧尧
+2020-04-07 17:05:56.220 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 下载简历并上传OA成功=======================
+2020-04-07 17:05:56.221 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 读取简历成功，简历标题[(51job.com)申请贵公司招聘专员（上海）－赵尧尧]投递时间[2020-04-07]
+2020-04-07 17:05:59.866 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 获取简历信息开始=========================
+2020-04-07 17:05:59.908 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 当前列表数量[1],简历标题=============================(51job.com)申请贵公司项目实施（宜春）（宜春）－吴锦鹏
+2020-04-07 17:06:01.144 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 下载简历并上传OA成功=======================
+2020-04-07 17:06:01.144 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 读取简历成功，简历标题[(51job.com)申请贵公司项目实施（宜春）（宜春）－吴锦鹏]投递时间[2020-04-07]
+2020-04-07 17:06:02.184 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 发送简历信息=========================[{"address":"上海","age":"24","deliveryTime":"2020-04-07","education":"硕士","email":"zhaoyaoyao0918@163.com","imageFileId":"3833598","name":"赵尧尧","phone":"18621821702","position":"HR实习生","sex":"女","source":"前程无忧","title":"(51job.com)申请贵公司招聘专员（上海）－赵尧尧"},{"address":"宜春","age":"27","deliveryTime":"2020-04-07","education":"大专","email":"601119594@qq.com","imageFileId":"3833599","name":"吴锦鹏","phone":"13576524657","position":"金蝶实施工程师","sex":"男","source":"前程无忧","title":"(51job.com)申请贵公司项目实施（宜春）（宜春）－吴锦鹏"}]
+2020-04-07 17:18:03.079 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 发送简历成功==========================
+
+
+2020-04-07 17:18:03.124 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-07 17:46:57.891 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - Starting RpaRecruitmentApplication on DESKTOP-IKISCO3 with PID 29196 (D:\myproject\rpa-recruitment\target\classes started by Administrator in D:\myproject\rpa-recruitment)
+2020-04-07 17:46:57.894 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - No active profile set, falling back to default profiles: default
+2020-04-07 17:46:58.728 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8087 (http)
+2020-04-07 17:46:58.736 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2020-04-07 17:46:58.737 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-07 17:46:58.738 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-04-07 17:46:58.812 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-07 17:46:58.812 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 879 ms
+2020-04-07 17:46:58.955 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-07 17:46:59.093 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2020-04-07 17:46:59.112 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8087 (http) with context path ''
+2020-04-07 17:46:59.116 [main] INFO  c.weaver.rparecruitment.RpaRecruitmentApplication - Started RpaRecruitmentApplication in 1.642 seconds (JVM running for 2.167)
+2020-04-07 17:47:07.496 [http-nio-8087-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-07 17:47:07.497 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-07 17:47:07.503 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-04-07 17:47:13.165 [Forwarding newSession on session null to remote] INFO  org.openqa.selenium.remote.ProtocolHandshake - Detected dialect: W3C
+2020-04-07 17:47:15.290 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 启用cookie登录...
+2020-04-07 17:47:17.430 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - cookie登录成功!
+2020-04-07 17:47:24.722 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 获取简历信息开始=========================
+2020-04-07 17:47:24.744 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 当前列表数量[3],简历标题=============================(51job.com)申请贵公司售后客服专员（上海）－李浩南
+2020-04-07 17:47:26.007 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 下载简历并上传OA成功=======================
+2020-04-07 17:47:26.008 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 读取简历成功，简历标题[(51job.com)申请贵公司售后客服专员（上海）－李浩南]投递时间[2020-04-07]
+2020-04-07 17:47:30.059 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 获取简历信息开始=========================
+2020-04-07 17:47:30.080 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 当前列表数量[2],简历标题=============================(51job.com)申请贵公司招聘专员（上海）－赵尧尧
+2020-04-07 17:47:31.163 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 下载简历并上传OA成功=======================
+2020-04-07 17:47:31.164 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 读取简历成功，简历标题[(51job.com)申请贵公司招聘专员（上海）－赵尧尧]投递时间[2020-04-07]
+2020-04-07 17:47:36.147 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 获取简历信息开始=========================
+2020-04-07 17:47:36.758 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 当前列表数量[1],简历标题=============================(51job.com)申请贵公司项目实施（宜春）（宜春）－吴锦鹏
+2020-04-07 17:47:39.212 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 下载简历并上传OA成功=======================
+2020-04-07 17:47:39.212 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 读取简历成功，简历标题[(51job.com)申请贵公司项目实施（宜春）（宜春）－吴锦鹏]投递时间[2020-04-07]
+2020-04-07 17:47:40.574 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 发送简历信息=========================[{"address":"上海-闵行区","age":"22","deliveryTime":"2020-04-07","education":"大专","email":"113432346@qq.com","imageFileId":"3833614","name":"李浩南","phone":"18755133306","position":"销售代表","sex":"男","source":"前程无忧","title":"(51job.com)申请贵公司售后客服专员（上海）－李浩南"},{"address":"上海","age":"24","deliveryTime":"2020-04-07","education":"硕士","email":"zhaoyaoyao0918@163.com","imageFileId":"3833615","name":"赵尧尧","phone":"18621821702","position":"HR实习生","sex":"女","source":"前程无忧","title":"(51job.com)申请贵公司招聘专员（上海）－赵尧尧"},{"address":"宜春","age":"27","deliveryTime":"2020-04-07","education":"大专","email":"601119594@qq.com","imageFileId":"3833616","name":"吴锦鹏","phone":"13576524657","position":"金蝶实施工程师","sex":"男","source":"前程无忧","title":"(51job.com)申请贵公司项目实施（宜春）（宜春）－吴锦鹏"}]
+2020-04-07 18:00:04.274 [http-nio-8087-exec-1] INFO  c.w.rparecruitment.controller.ExecuteController - 发送简历成功==========================
+
+
+2020-04-07 18:00:04.296 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
