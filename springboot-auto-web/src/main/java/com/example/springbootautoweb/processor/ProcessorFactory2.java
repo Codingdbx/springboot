@@ -22,7 +22,7 @@ public class ProcessorFactory2 {
     }
 
     public static void register(DataSourceType type,Processor processor){
-        Assert.notNull(type, "processor can not be null.");
+        Assert.notNull(processor, "processor can not be null.");
         PROCESSOR_MAP.put(type, processor);
     }
 
